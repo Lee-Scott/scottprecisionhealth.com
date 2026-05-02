@@ -5,8 +5,10 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "main": ".open-next/worker.js",
   "assets": {
-    "directory": ".vercel/output/static"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   },
   "observability": {
     "enabled": true
