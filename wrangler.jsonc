@@ -1,13 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "scottprecisionhealth",
+  "main": ".vercel/output/static/_worker.js", // Direct entry to the worker script
   "compatibility_date": "2026-05-01",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "main": ".open-next/worker.js",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
-    "directory": ".open-next/assets",
+    "directory": ".vercel/output/static",
     "binding": "ASSETS"
   },
   "observability": {
