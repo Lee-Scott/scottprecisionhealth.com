@@ -78,6 +78,8 @@ export default function ServicesPage() {
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          role="img"
+          aria-label="Medical clinic interior with modern equipment"
           style={{
             backgroundImage:
               'url("https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=2080&auto=format&fit=crop")',

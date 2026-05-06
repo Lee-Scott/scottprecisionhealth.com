@@ -15,6 +15,8 @@ export default function Hero() {
       <div className="absolute inset-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          role="img"
+          aria-label="Peaceful beach and ocean scene representing health and vitality"
           style={{
             backgroundImage:
               'url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop")',

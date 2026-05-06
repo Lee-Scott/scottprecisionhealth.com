@@ -15,6 +15,8 @@ export default function AboutPage() {
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          role="img"
+          aria-label="Medical professionals collaborating in a modern clinic"
           style={{
             backgroundImage:
               'url("https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=2070&auto=format&fit=crop")',

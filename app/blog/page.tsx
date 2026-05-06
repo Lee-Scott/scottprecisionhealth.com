@@ -18,6 +18,8 @@ export default function BlogPage() {
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          role="img"
+          aria-label="Library with bookshelves and warm lighting"
           style={{
             backgroundImage:
               'url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2070&auto=format&fit=crop")',

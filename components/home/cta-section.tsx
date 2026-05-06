@@ -14,6 +14,8 @@ export default function CTASection() {
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        role="img"
+        aria-label="Person practicing yoga or meditation for wellness"
         style={{
           backgroundImage:
             'url("https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=2091&auto=format&fit=crop")',
