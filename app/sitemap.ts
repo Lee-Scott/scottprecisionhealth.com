@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllBlogPosts } from "@/lib/mdx";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://scottprecisionhealth.com";
 
@@ -17,6 +19,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/shot-studio`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/services/scott-precision-health-at-remedy`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/about`,

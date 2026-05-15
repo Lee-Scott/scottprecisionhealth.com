@@ -76,7 +76,7 @@ export default function SynergySection() {
               Data-Driven Systems
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-sm mx-auto md:mr-auto">
-              Lee Scott's software engineering background ensures every
+              Lee Scott&apos;s software engineering background ensures every
               protocol is built on clean data, systematic tracking, and
               continuous optimization.
             </p>
@@ -96,7 +96,7 @@ export default function SynergySection() {
               &ldquo;Better labs, better life.&rdquo;
             </p>
             <p className="mt-3 text-sm text-muted-foreground">
-              This isn't just a tagline — it's the engineering
+              This isn&apos;t just a tagline — it&apos;s the engineering
               principle behind everything we do. Measure precisely. Analyze
               rigorously. Optimize continuously.
             </p>

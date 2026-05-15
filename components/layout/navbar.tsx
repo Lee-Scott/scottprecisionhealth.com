@@ -9,12 +9,17 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/services", label: "Services" },
+  { href: "/services/shot-studio", label: "Shot Studio" },
+  {
+    href: "/services/scott-precision-health-at-remedy",
+    label: "Remedy",
+  },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
 ];
 
 const BOOKING_URL =
-  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZtZF15rZZIXamTrTGhVbEftUmPG_QiKc4RjEvcBAJyTNll00bOGKIUKrgfaxSDDhbThEqZksF";
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

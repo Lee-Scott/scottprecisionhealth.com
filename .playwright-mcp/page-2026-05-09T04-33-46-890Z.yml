@@ -1,0 +1,200 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Jordan Scott ND Logo Jordan Scott, ND" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+        - img "Jordan Scott ND Logo" [ref=e6]
+        - generic [ref=e7]: Jordan Scott, ND
+      - navigation "Primary" [ref=e8]:
+        - link "About me" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+        - link "Location" [ref=e10] [cursor=pointer]:
+          - /url: "#location"
+        - link "Clinical Insights" [ref=e11] [cursor=pointer]:
+          - /url: "#clinical-insights"
+        - link "Contact" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Book an appointment" [ref=e14] [cursor=pointer]:
+        - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+  - main [ref=e15]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Personalized, results-driven functional medicine
+        - heading "Jordan Scott, ND" [level=1] [ref=e21]
+        - heading "San Diego, California naturopathic doctor" [level=2] [ref=e22]
+        - paragraph [ref=e23]: Take control of your health with precision-based medicine root-cause insight, a clear plan, and accountability. Serving San Diego and beyond.
+        - generic [ref=e24]:
+          - link "Book an appointment" [ref=e25] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+          - link "Learn more" [ref=e26] [cursor=pointer]:
+            - /url: "#about"
+        - status [ref=e27] [cursor=pointer]: Accepting new patients - June 2026
+      - generic:
+        - img "Jordan Scott, ND"
+    - generic [ref=e30]:
+      - heading "About me" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - paragraph [ref=e35]: I am Dr. Jordan Scott, a naturopathic doctor based in San Diego. I help people take control of their health through care that is personalized and actually shows results.
+            - paragraph [ref=e36]:
+              - text: My work focuses on
+              - strong [ref=e37]: advanced lab testing
+              - text: ","
+              - strong [ref=e38]: peptide therapy
+              - text: ", and"
+              - strong [ref=e39]: hormone optimization
+              - text: . I work with people dealing with fatigue, metabolic challenges, and those who simply want to operate at a higher level in their careers and daily life.
+            - paragraph [ref=e40]: "I take a direct approach: find the root cause, remove the noise, and build a plan you can actually follow. No guesswork. Outside the clinic, I value energy and longevity, not just as a theory, but in how life is actually lived. The goal is not just better labs; it is a better life."
+          - link "Book an appointment" [ref=e42] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book an appointment
+            - img [ref=e43]
+        - generic [ref=e46]:
+          - heading "Focus areas" [level=3] [ref=e47]
+          - generic [ref=e48]:
+            - group [ref=e49]:
+              - generic "Advanced lab testing" [ref=e50] [cursor=pointer]:
+                - generic [ref=e52]: Advanced lab testing
+                - img [ref=e54]
+            - group [ref=e56]:
+              - generic "Peptide therapy" [ref=e57] [cursor=pointer]:
+                - generic [ref=e59]: Peptide therapy
+                - img [ref=e61]
+            - group [ref=e63]:
+              - generic "Hormone optimization" [ref=e64] [cursor=pointer]:
+                - generic [ref=e66]: Hormone optimization
+                - img [ref=e68]
+            - group [ref=e70]:
+              - generic "Functional medicine" [ref=e71] [cursor=pointer]:
+                - generic [ref=e73]: Functional medicine
+                - img [ref=e75]
+      - generic [ref=e78]:
+        - heading "Who I work with" [level=3] [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - img [ref=e83]
+            - paragraph [ref=e88]: Fatigue and low energy that doesn’t match how you want to live
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - paragraph [ref=e94]: Hormone imbalances and related symptoms
+          - generic [ref=e95]:
+            - img [ref=e97]
+            - paragraph [ref=e100]: Metabolic challenges and body-composition goals
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - paragraph [ref=e105]: High performers who want more clarity, resilience, and edge-in work, training, and daily life
+    - generic [ref=e107]:
+      - heading "Location & hours" [level=2] [ref=e108]
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - heading "Remedy Holistic Pharmacy" [level=3] [ref=e112]
+            - paragraph [ref=e113]:
+              - text: 320 W Cedar Street, Suite 103
+              - text: San Diego, California 92101
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Hours
+            - generic [ref=e117]:
+              - term [ref=e118]: Tuesday
+              - definition [ref=e119]: 9:00 AM – 6:00 PM
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: Services offered
+            - list [ref=e122]:
+              - listitem [ref=e123]: Vitamin & Wellness Injection
+              - listitem [ref=e125]: Clinical Order & Blood Draw
+              - listitem [ref=e127]: Rapid Wellness Consult
+              - listitem [ref=e129]: Medication Optimization
+              - listitem [ref=e131]: Precision Functional Medicine
+              - listitem [ref=e133]: Comprehensive Hormone Initial Package
+          - generic [ref=e135]:
+            - link "Book an appointment" [ref=e136] [cursor=pointer]:
+              - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - paragraph [ref=e137]: Pricing & more information
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - heading "Scott Precision Health Telemedicine" [level=3] [ref=e140]
+            - paragraph [ref=e141]: Virtual consultations available throughout California
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: Hours
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - term [ref=e146]: Monday
+                - definition [ref=e147]: 10:00 AM – 4:00 PM
+              - generic [ref=e148]:
+                - term [ref=e149]: Tuesday
+                - definition [ref=e150]: 9:00 AM – 6:00 PM
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: Services offered
+            - list [ref=e153]:
+              - listitem [ref=e154]: Functional Medicine Visits
+              - listitem [ref=e156]: Lab Panel Review & Optimization
+              - listitem [ref=e158]: Peptide Programs
+              - listitem [ref=e160]: Hormone Replacement Therapy Programs
+              - listitem [ref=e162]: Weight Loss Programs
+          - generic [ref=e164]:
+            - link "Book an appointment" [ref=e165] [cursor=pointer]:
+              - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd14a46915db39b9affc01&step=services
+            - paragraph [ref=e166]: Pricing & more information
+    - generic [ref=e169]:
+      - generic:
+        - img "Jordan Scott, ND"
+      - generic [ref=e170]:
+        - heading "Continuing Your Care" [level=2] [ref=e171]
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: If you would like to have your medical records transferred from Body Blu to our new office, please click below to complete the Medical Records Release Form. After a quick email verification to keep your data secure, Dr. Scott will personally handle the rest of the transfer process to ensure your records are ready for your next visit.
+          - link "Medical Records Release Form" [ref=e174] [cursor=pointer]:
+            - /url: https://secure.mailhippo.com/portal/FillPubPdfForm.aspx?token=PXD04vdqagYIcJQCUGp2xLMFz6m812bGr0JVnSMxz4o%3D
+    - generic [ref=e176]:
+      - heading "Clinical Insights" [level=2] [ref=e177]
+      - paragraph [ref=e178]: Research-backed notes on hormones, peptides, and testing for people who want real answers.
+      - generic [ref=e179]:
+        - 'button "Beyond Normal: Why Optimal Lab Ranges Matter Most lab ranges are built around averages, not health. That matters more than most people realize. Read more" [ref=e180] [cursor=pointer]':
+          - generic [ref=e181]:
+            - 'heading "Beyond Normal: Why Optimal Lab Ranges Matter" [level=3] [ref=e182]'
+            - paragraph [ref=e183]: Most lab ranges are built around averages, not health. That matters more than most people realize.
+          - generic [ref=e185]:
+            - text: Read more
+            - img [ref=e186]
+        - button "Peptides and Cellular Repair Peptides are changing how we approach recovery, inflammation, and cognitive performance. Read more" [ref=e188] [cursor=pointer]:
+          - generic [ref=e189]:
+            - heading "Peptides and Cellular Repair" [level=3] [ref=e190]
+            - paragraph [ref=e191]: Peptides are changing how we approach recovery, inflammation, and cognitive performance.
+          - generic [ref=e193]:
+            - text: Read more
+            - img [ref=e194]
+        - button "Managing Hormone Health and Energy Energy, focus, and sleep are heavily tied to hormone health, even when labs come back \"normal.\" Read more" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]:
+            - heading "Managing Hormone Health and Energy" [level=3] [ref=e198]
+            - paragraph [ref=e199]: Energy, focus, and sleep are heavily tied to hormone health, even when labs come back "normal."
+          - generic [ref=e201]:
+            - text: Read more
+            - img [ref=e202]
+    - generic [ref=e205]:
+      - heading "Contact" [level=2] [ref=e206]
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - term [ref=e209]: Email
+          - definition [ref=e210]:
+            - link "hello@jordanscottnd.com" [ref=e211] [cursor=pointer]:
+              - /url: mailto:hello@jordanscottnd.com
+        - generic [ref=e212]:
+          - term [ref=e213]: Call or Text
+          - definition [ref=e214]:
+            - link "(619) 431-0758" [ref=e215] [cursor=pointer]:
+              - /url: tel:+16194310758
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - img "Jordan Scott ND Logo" [ref=e220]
+          - paragraph [ref=e221]: Jordan Scott, ND
+        - paragraph [ref=e222]: San Diego, California · personalized, results-driven functional medicine
+        - generic [ref=e223]:
+          - paragraph [ref=e224]:
+            - link "Visit Yours_Longevity Lab →" [ref=e225] [cursor=pointer]:
+              - /url: https://www.yourslongevitylab.com/
+          - paragraph [ref=e226]:
+            - link "Visit Scott Precision Health →" [ref=e227] [cursor=pointer]:
+              - /url: https://scottprecisionhealth.com/
+      - paragraph [ref=e228]: © 2026 Jordan Scott, ND. All rights reserved.

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const BOOKING_URL =
-  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZtZF15rZZIXamTrTGhVbEftUmPG_QiKc4RjEvcBAJyTNll00bOGKIUKrgfaxSDDhbThEqZksF";
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
 
 
 export default function CTASection() {

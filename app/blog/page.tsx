@@ -52,7 +52,7 @@ export default function BlogPage() {
                 Coming Soon
               </h2>
               <p className="text-muted-foreground max-w-md mx-auto">
-                We're building our library of articles on precision
+                We&apos;re building our library of articles on precision
                 medicine, hormone optimization, and longevity. Check back soon
                 for in-depth insights.
               </p>

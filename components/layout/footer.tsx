@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Mail, MapPin, Activity } from "lucide-react";
 
 const BOOKING_URL =
-  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZtZF15rZZIXamTrTGhVbEftUmPG_QiKc4RjEvcBAJyTNll00bOGKIUKrgfaxSDDhbThEqZksF";
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
 
 export default function Footer() {
   return (
@@ -40,6 +40,22 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/shot-studio"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Shot Studio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/scott-precision-health-at-remedy"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Scott Precision Health at Remedy
                 </Link>
               </li>
               <li>
@@ -95,16 +111,6 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
                   Dr. Jordan Scott ND
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://familyfirstsoftware.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Family First Software
                 </a>
               </li>
             </ul>

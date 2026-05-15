@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const BOOKING_URL =
-  "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0ZtZF15rZZIXamTrTGhVbEftUmPG_QiKc4RjEvcBAJyTNll00bOGKIUKrgfaxSDDhbThEqZksF";
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
 
 export default function Hero() {
   return (
@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 mb-8">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
             <span className="text-xs font-medium text-primary tracking-wider uppercase">
-              San Diego's Premier Precision Health Practice
+              San Diego&apos;s Premier Precision Health Practice
             </span>
           </div>
         </motion.div>
@@ -93,29 +93,6 @@ export default function Hero() {
               <ArrowRight className="h-5 w-5" />
             </Link>
           </Button>
-        </motion.div>
-
-        {/* Stats */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 max-w-2xl mx-auto"
-        >
-          {[
-            { value: "500+", label: "Patients Treated" },
-            { value: "15+", label: "Years Combined Experience" },
-            { value: "99%", label: "Insurance & Self-Pay Accepted" },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-primary">
-                {stat.value}
-              </div>
-              <div className="text-xs text-muted-foreground mt-1 uppercase tracking-wider">
-                {stat.label}
-              </div>
-            </div>
-          ))}
         </motion.div>
       </div>
 
