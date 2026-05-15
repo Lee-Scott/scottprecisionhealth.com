@@ -47,7 +47,7 @@ export default function Footer() {
                   href="/services/shot-studio"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Shot Studio
+                  The Shot Studio
                 </Link>
               </li>
               <li>

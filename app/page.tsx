@@ -9,25 +9,29 @@ const services = [
   {
     icon: Activity,
     title: "HRT Program",
-    description: "Hormone optimization for men and women — comprehensive labs, personalized protocols, and ongoing monitoring.",
+    description:
+      "Hormone optimization for men and women, comprehensive labs, personalized protocols, and ongoing monitoring.",
     price: "$399",
   },
   {
     icon: Heart,
     title: "Functional Medicine",
-    description: "60-minute deep dive into root causes: gut health, metabolic function, and hormonal balance.",
+    description:
+      "60-minute deep dive into root causes: gut health, metabolic function, and hormonal balance.",
     price: "$289",
   },
   {
     icon: Brain,
     title: "Peptide Therapy",
-    description: "Advanced regenerative peptides for tissue repair, cognitive enhancement, and immune modulation.",
+    description:
+      "Advanced regenerative peptides for tissue repair, cognitive enhancement, and immune modulation.",
     price: "$350",
   },
   {
     icon: Microscope,
     title: "Advanced Lab Testing",
-    description: "In-house blood analysis, stool, urine, and saliva testing — uncover what standard panels miss.",
+    description:
+      "In-house blood analysis, stool, urine, and saliva testing, uncover what standard panels miss.",
     price: "$59+",
   },
 ];
@@ -36,32 +40,32 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      
-      {/* Services Preview */}
-      <section className="relative py-24 md:py-32 bg-card/50">
+
+      <section className="relative bg-card/50 py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+          <div className="mb-16 text-center">
+            <h2 className="text-3xl font-bold text-foreground md:text-4xl">
               Our Services
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Evidence-based protocols designed to optimize every system in your body.
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+              Evidence-based protocols designed to optimize every system in your
+              body.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {services.map((service) => (
               <div
                 key={service.title}
-                className="rounded-2xl border border-border bg-card p-6 hover:border-primary/30 transition-all duration-300 group"
+                className="group rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:border-primary/30"
               >
-                <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 text-primary mb-4 group-hover:bg-primary/20 transition-colors">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
                   <service.icon className="h-6 w-6" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
+                <h3 className="mb-2 text-lg font-semibold text-foreground">
                   {service.title}
                 </h3>
-                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
                   {service.description}
                 </p>
                 <div className="text-2xl font-bold text-primary">
@@ -71,8 +75,8 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
-            <Button asChild variant="outline" size="lg" className="font-semibold">
+          <div className="mt-10 text-center">
+            <Button asChild size="lg" variant="outline" className="font-semibold">
               <Link href="/services" className="inline-flex items-center gap-2">
                 View All Services
                 <ArrowRight className="h-4 w-4" />

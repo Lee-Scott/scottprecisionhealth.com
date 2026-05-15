@@ -23,6 +23,9 @@ export const metadata: Metadata = {
 const GENERAL_BOOKING_URL =
   "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
 
+const SHOT_STUDIO_BOOKING_URL =
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f3d03c99565d508284d4b8";
+
 const REMEDY_LOCATION = {
   name: "Remedy Holistic Pharmacy",
   street: "320 W Cedar St, Suite 103",
@@ -41,7 +44,7 @@ const telemedicinePrograms = [
   },
   {
     title: "Functional Medicine",
-    price: "$289",
+    price: "$299",
     detail: "Initial visit",
     description:
       "A comprehensive root-cause visit focused on nutrition, metabolic health, hormones, digestion, lifestyle, and targeted lab strategy.",
@@ -57,16 +60,16 @@ const telemedicinePrograms = [
   },
   {
     title: "Weight Optimization",
-    price: "Book",
-    detail: "Pricing confirmed at booking",
+    price: "$299.00",
+    detail: "Initial visit",
     description:
       "A personalized program focused on metabolic health, body composition, lab-guided strategy, nutrition, lifestyle, and medication options when appropriate.",
     badges: ["Telemedicine", "Metabolic health"],
   },
   {
     title: "Biomarker Optimization",
-    price: "Book",
-    detail: "Pricing confirmed at booking",
+    price: "$259.00",
+    detail: "Initial visit",
     description:
       "Lab-guided optimization for hormones, metabolic markers, inflammation, nutrient status, recovery, and performance-focused health goals.",
     badges: ["Telemedicine", "Lab-guided"],
@@ -85,7 +88,7 @@ const remedyServices = [
       "Targeted wellness injections delivered in a quick, in-person visit to support energy, performance, and overall cellular optimization.",
     badges: ["In-person at Remedy", "Saturday"],
     href: "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f3d03c99565d508284d4b8",
-    cta: "Book Shot Studio",
+    cta: "Book The Shot Studio",
     icon: Syringe,
     menuHref: "/services/shot-studio",
   },
@@ -235,7 +238,7 @@ export default function ServicesPage() {
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-muted-foreground">
             Some services are available virtually, while select clinical visits
-            and the Saturday Shot Studio are offered in person at Remedy in San
+            and The Shot Studio on Saturdays are offered in person at Remedy in San
             Diego.
           </p>
         </div>
@@ -319,7 +322,7 @@ export default function ServicesPage() {
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Badge variant="default" className="px-4 py-1.5">
-                  Shot Studio: Saturdays, 10:30 AM - 2:30 PM
+                  The Shot Studio: Saturdays, 10:30 AM - 2:30 PM
                 </Badge>
                 <Badge variant="secondary" className="px-4 py-1.5">
                   Clinical appointments: Tuesdays, 9:30 AM - 5:00 PM
@@ -445,25 +448,39 @@ export default function ServicesPage() {
                   </dl>
 
                   <div className="mt-auto flex flex-col gap-3 pt-6">
-                    <Button asChild className="w-full font-semibold">
-                      <a
-                        href={service.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`${service.cta}: ${service.title}`}
-                      >
-                        {service.cta}
-                      </a>
-                    </Button>
-                    {service.menuHref && (
-                      <Button asChild variant="outline" className="w-full">
-                        <Link
-                          href={service.menuHref}
-                          className="inline-flex items-center gap-2"
+                    {service.menuHref ? (
+                      <>
+                        <Button asChild className="w-full font-semibold">
+                          <Link
+                            href={service.menuHref}
+                            className="inline-flex items-center gap-2"
+                            aria-label={`View Injection Menu: ${service.title}`}
+                          >
+                            View Injection Menu
+                            <ArrowRight className="h-4 w-4" />
+                          </Link>
+                        </Button>
+                        <Button asChild variant="outline" className="w-full font-semibold">
+                          <a
+                            href={SHOT_STUDIO_BOOKING_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`Book The Shot Studio: ${service.title}`}
+                          >
+                            Book The Shot Studio
+                          </a>
+                        </Button>
+                      </>
+                    ) : (
+                      <Button asChild className="w-full font-semibold">
+                        <a
+                          href={service.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${service.cta}: ${service.title}`}
                         >
-                          View Injection Menu
-                          <ArrowRight className="h-4 w-4" />
-                        </Link>
+                          {service.cta}
+                        </a>
                       </Button>
                     )}
                   </div>

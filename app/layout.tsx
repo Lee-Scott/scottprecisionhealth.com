@@ -15,7 +15,7 @@ const baseUrl = "https://scottprecisionhealth.com";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Scott Precision Health — Precision Medicine San Diego",
+    default: "Scott Precision Health - Precision Medicine San Diego",
     template: "%s | Scott Precision Health",
   },
   description:
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "precision medicine San Diego",
   ],
   openGraph: {
-    title: "Scott Precision Health — Precision Medicine San Diego",
+    title: "Scott Precision Health - Precision Medicine San Diego",
     description:
       "Precision medicine for high-performance life. Evidence-based naturopathic care from Dr. Jordan Scott ND in San Diego, CA.",
     type: "website",
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: `${baseUrl}/images/LogoScottPercistion.png`,
         width: 1200,
         height: 630,
-        alt: "Scott Precision Health — Precision Medicine San Diego",
+        alt: "Scott Precision Health - Precision Medicine San Diego",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Scott Precision Health — Precision Medicine San Diego",
+    title: "Scott Precision Health - Precision Medicine San Diego",
     description:
       "Precision medicine for high-performance life. Evidence-based naturopathic care from Dr. Jordan Scott ND in San Diego, CA.",
     images: [`${baseUrl}/images/LogoScottPercistion.png`],

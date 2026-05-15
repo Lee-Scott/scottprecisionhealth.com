@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const BOOKING_URL =
-  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e";
+  "https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f3d03c99565d508284d4b8&step=date";
 
 const menuSections = [
   {
@@ -116,7 +116,7 @@ export default function ShotStudioPage() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg" className="font-semibold">
                 <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
-                  Book Shot Studio Visit
+                  Book The Shot Studio Visit
                 </a>
               </Button>
               <Button
@@ -126,7 +126,7 @@ export default function ShotStudioPage() {
                 className="font-semibold"
               >
                 <Link href="/services/scott-precision-health-at-remedy">
-                  Scott Precision Health at Remedy
+                  Scott Precision Health x Remedy
                 </Link>
               </Button>
             </div>
@@ -140,7 +140,7 @@ export default function ShotStudioPage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-2xl font-semibold text-foreground">
-                    Saturday Shot Studio
+                    The Shot Studio on Saturdays
                   </p>
                   <p className="mt-2 text-sm text-muted-foreground">
                     Walk-ins encouraged
@@ -235,17 +235,17 @@ export default function ShotStudioPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-primary">
               Booking
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-foreground">
-              Visit the Saturday Shot Studio at Remedy
-            </h2>
+              <h2 className="mt-3 text-3xl font-semibold text-foreground">
+                Visit The Shot Studio on Saturdays at Remedy
+              </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground">
-              Book ahead through Practice Better or stop in during the
-              Saturday Shot Studio window. Walk-ins are encouraged.
+              Book ahead through Practice Better or stop in during The Shot
+              Studio on Saturdays. Walk-ins are encouraged.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild className="font-semibold">
                 <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
-                  Book Shot Studio Visit
+                  Book The Shot Studio Visit
                 </a>
               </Button>
               <Button asChild variant="ghost" className="text-primary">

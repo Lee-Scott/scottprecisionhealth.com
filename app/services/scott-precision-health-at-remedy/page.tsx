@@ -14,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Scott Precision Health at Remedy | Scott Precision Health",
   description:
-    "In-person care at Remedy in San Diego with Dr. Jordan Scott, ND, including functional medicine, lab review, hormone, peptide, weight loss, and Saturday Shot Studio visits.",
+    "In-person care at Remedy in San Diego with Dr. Jordan Scott, ND, including functional medicine, lab review, hormone, peptide, weight loss, and The Shot Studio on Saturdays.",
 };
 
 const BOOKING_URL =
@@ -92,7 +92,7 @@ export default function RemedyPage() {
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
               In-person naturopathic and functional medicine care at Remedy
               Holistic Pharmacy in San Diego, with scheduled patient visits on
-              Tuesdays and a dedicated Saturday Shot Studio for targeted
+              Tuesdays and The Shot Studio on Saturdays for targeted
               wellness injections.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -107,7 +107,7 @@ export default function RemedyPage() {
                 variant="outline"
                 className="font-semibold"
               >
-                <Link href="/services/shot-studio">View Shot Studio Menu</Link>
+                <Link href="/services/shot-studio">View The Shot Studio Menu</Link>
               </Button>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function RemedyPage() {
               Remedy Schedule
             </p>
             <h2 className="mt-3 text-3xl font-semibold text-foreground">
-              Tuesday care and Saturday Shot Studio
+              Tuesday care and The Shot Studio on Saturdays
             </h2>
           </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -183,7 +183,7 @@ export default function RemedyPage() {
             <article className="rounded-[1.75rem] border border-primary/20 bg-card p-8">
               <Sparkles className="h-8 w-8 text-primary" />
               <h3 className="mt-5 text-2xl font-semibold text-foreground">
-                Saturday Shot Studio
+                The Shot Studio on Saturdays
               </h3>
               <p className="mt-2 text-lg font-semibold text-primary">
                 10:30 AM - 2:30 PM
@@ -276,7 +276,11 @@ export default function RemedyPage() {
             </div>
             <div className="mt-8">
               <Button asChild className="font-semibold">
-                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd14a46915db39b9affc01"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Book Telemedicine Visit
                 </a>
               </Button>
@@ -307,7 +311,7 @@ export default function RemedyPage() {
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <Button asChild variant="ghost" className="text-primary">
             <Link href="/services/shot-studio" className="inline-flex items-center gap-2">
-              View the Shot Studio menu
+                  View The Shot Studio menu
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>

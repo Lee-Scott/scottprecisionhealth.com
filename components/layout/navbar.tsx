@@ -9,10 +9,10 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/services", label: "Services" },
-  { href: "/services/shot-studio", label: "Shot Studio" },
+  { href: "/services/shot-studio", label: "The Shot Studio" },
   {
     href: "/services/scott-precision-health-at-remedy",
-    label: "Remedy",
+    label: "Scott Precision Health x Remedy",
   },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },

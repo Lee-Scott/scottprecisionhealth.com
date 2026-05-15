@@ -1,0 +1,479 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "ScottPrecisionHealth" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+          - generic [ref=e8]: ScottPrecisionHealth
+        - generic [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+          - link "Shot Studio" [ref=e11] [cursor=pointer]:
+            - /url: /services/shot-studio
+            - text: Shot Studio
+          - link "Remedy" [ref=e12] [cursor=pointer]:
+            - /url: /services/scott-precision-health-at-remedy
+            - text: Remedy
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+            - text: About
+          - link "Blog" [ref=e14] [cursor=pointer]:
+            - /url: /blog
+            - text: Blog
+          - link "Book Now" [ref=e15] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - img "Modern clinical care environment" [ref=e18]
+      - generic [ref=e21]:
+        - heading "Precision Health Services" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Evidence-based, data-driven care with clear booking options for telemedicine and in-person care at Remedy.
+        - paragraph [ref=e24]: Some services are available virtually, while select clinical visits and the Saturday Shot Studio are offered in person at Remedy in San Diego.
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: Virtual Care
+        - heading "Telemedicine Programs" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Structured programs for patients who want personalized, clinically guided care with convenient booking access.
+      - generic [ref=e32]:
+        - article [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Telemedicine
+            - generic [ref=e36]: Hormone evaluation
+          - generic [ref=e37]:
+            - heading "HRT Program" [level=3] [ref=e38]
+            - paragraph [ref=e39]: Bio-identical hormone replacement therapy evaluation and ongoing optimization for eligible men and women.
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: $399
+            - paragraph [ref=e42]: Initial visit
+          - link "Book telemedicine for HRT Program" [ref=e43] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book Telemedicine
+        - article [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: Telemedicine
+            - generic [ref=e47]: Root-cause strategy
+          - generic [ref=e48]:
+            - heading "Functional Medicine" [level=3] [ref=e49]
+            - paragraph [ref=e50]: A comprehensive root-cause visit focused on nutrition, metabolic health, hormones, digestion, lifestyle, and targeted lab strategy.
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: $289
+            - paragraph [ref=e53]: Initial visit
+          - link "Book telemedicine for Functional Medicine" [ref=e54] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book Telemedicine
+        - article [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Telemedicine
+            - generic [ref=e58]: Clinical evaluation
+          - generic [ref=e59]:
+            - heading "Peptide Programs" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Personalized peptide therapy evaluation and monitoring when clinically appropriate.
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: $350
+            - paragraph [ref=e64]: Initial visit
+          - link "Book telemedicine for Peptide Programs" [ref=e65] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book Telemedicine
+        - article [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Telemedicine
+            - generic [ref=e69]: Metabolic health
+          - generic [ref=e70]:
+            - heading "Weight Optimization" [level=3] [ref=e71]
+            - paragraph [ref=e72]: A personalized program focused on metabolic health, body composition, lab-guided strategy, nutrition, lifestyle, and medication options when appropriate.
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: 1 hour @ US$299.00
+            - paragraph [ref=e75]: Telemedicine
+          - link "Book telemedicine for Weight Optimization" [ref=e76] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book Telemedicine
+        - article [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: Telemedicine
+            - generic [ref=e80]: Lab-guided
+          - generic [ref=e81]:
+            - heading "Biomarker Optimization" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Lab-guided optimization for hormones, metabolic markers, inflammation, nutrient status, recovery, and performance-focused health goals.
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: 45 minutes @ US$259.00
+            - paragraph [ref=e86]: Telemedicine
+          - link "Book telemedicine for Biomarker Optimization" [ref=e87] [cursor=pointer]:
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+            - text: Book Telemedicine
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: In-Person Care
+          - heading "Scott Precision Health x Remedy" [level=2] [ref=e93]
+          - paragraph [ref=e94]: In-person care at Remedy in San Diego, with Saturday Shot Studio availability and Tuesday clinical appointments.
+          - generic [ref=e95]:
+            - generic [ref=e96]: "Shot Studio: Saturdays, 10:30 AM - 2:30 PM"
+            - generic [ref=e97]: "Clinical appointments: Tuesdays, 9:30 AM - 5:00 PM"
+        - complementary [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e104]:
+              - paragraph [ref=e105]: Remedy Holistic Pharmacy
+              - paragraph [ref=e106]:
+                - text: 320 W Cedar St, Suite 103
+                - text: San Diego, CA 92101
+      - generic [ref=e107]:
+        - article [ref=e108]:
+          - generic [ref=e109]:
+            - img [ref=e111]
+            - generic [ref=e118]:
+              - heading "The Shot Studio" [level=3] [ref=e119]
+              - paragraph [ref=e120]: The Shot Studio at Remedy
+          - generic [ref=e121]:
+            - generic [ref=e122]: In-person at Remedy
+            - generic [ref=e123]: Saturday
+          - paragraph [ref=e124]: Targeted wellness injections delivered in a quick, in-person visit to support energy, performance, and overall cellular optimization.
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - term [ref=e127]: Schedule
+              - definition [ref=e128]: Saturday 10:30 AM - 2:30 PM
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - term [ref=e131]: Duration
+                - definition [ref=e132]: 4 hours
+              - generic [ref=e133]:
+                - term [ref=e134]: Price
+                - definition [ref=e135]: Menu pricing varies
+            - generic [ref=e136]:
+              - term [ref=e137]: Format
+              - definition [ref=e138]: In-person
+            - generic [ref=e139]:
+              - term [ref=e140]: Location
+              - definition [ref=e141]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - generic [ref=e142]:
+            - 'link "View Injection Menu: The Shot Studio" [ref=e143] [cursor=pointer]':
+              - /url: /services/shot-studio
+              - text: View Injection Menu
+              - img [ref=e144]
+            - 'link "Book Shot Studio: The Shot Studio" [ref=e146] [cursor=pointer]':
+              - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f3d03c99565d508284d4b8
+              - text: Book Shot Studio
+        - article [ref=e147]:
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - generic [ref=e154]:
+              - heading "Bio Identical Hormone Replacement Therapy" [level=3] [ref=e155]
+              - paragraph [ref=e156]: BHRT New Patient Visit
+          - generic [ref=e157]:
+            - generic [ref=e158]: In-person at Remedy
+            - generic [ref=e159]: Tuesday
+          - paragraph [ref=e160]: Comprehensive new patient visit focused on root-cause evaluation and personalized care to initiate bio-identical hormone optimization programs for men and women.
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - term [ref=e163]: Schedule
+              - definition [ref=e164]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - term [ref=e167]: Duration
+                - definition [ref=e168]: 1 hour
+              - generic [ref=e169]:
+                - term [ref=e170]: Price
+                - definition [ref=e171]: US$299.00
+            - generic [ref=e172]:
+              - term [ref=e173]: Format
+              - definition [ref=e174]: In-person
+            - generic [ref=e175]:
+              - term [ref=e176]: Location
+              - definition [ref=e177]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Bio Identical Hormone Replacement Therapy" [ref=e179] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=6a078e3711298c3e496d6306
+            - text: Book at Remedy
+        - article [ref=e180]:
+          - generic [ref=e181]:
+            - img [ref=e183]
+            - generic [ref=e186]:
+              - heading "Weight Optimization Program" [level=3] [ref=e187]
+              - paragraph [ref=e188]: Weight Optimization New Patient Visit
+          - generic [ref=e189]:
+            - generic [ref=e190]: In-person at Remedy
+            - generic [ref=e191]: Tuesday
+          - paragraph [ref=e192]: Comprehensive new patient visit focused on root-cause evaluation and personalized care for weight optimization.
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - term [ref=e195]: Schedule
+              - definition [ref=e196]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - term [ref=e199]: Duration
+                - definition [ref=e200]: 1 hour
+              - generic [ref=e201]:
+                - term [ref=e202]: Price
+                - definition [ref=e203]: US$299.00
+            - generic [ref=e204]:
+              - term [ref=e205]: Format
+              - definition [ref=e206]: In-person
+            - generic [ref=e207]:
+              - term [ref=e208]: Location
+              - definition [ref=e209]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Weight Optimization Program" [ref=e211] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=6a078ef411298c3e496d6752&step=date
+            - text: Book at Remedy
+        - article [ref=e212]:
+          - generic [ref=e213]:
+            - img [ref=e215]
+            - generic [ref=e218]:
+              - heading "Peptide Program" [level=3] [ref=e219]
+              - paragraph [ref=e220]: Peptide Program New Patient Visit
+          - generic [ref=e221]:
+            - generic [ref=e222]: In-person at Remedy
+            - generic [ref=e223]: Tuesday
+          - paragraph [ref=e224]: Comprehensive new patient visit focused on preventative medicine and personalized care to establish candidacy and treatment with popular longevity peptides.
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - term [ref=e227]: Schedule
+              - definition [ref=e228]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - term [ref=e231]: Duration
+                - definition [ref=e232]: 1 hour
+              - generic [ref=e233]:
+                - term [ref=e234]: Price
+                - definition [ref=e235]: US$299.00
+            - generic [ref=e236]:
+              - term [ref=e237]: Format
+              - definition [ref=e238]: In-person
+            - generic [ref=e239]:
+              - term [ref=e240]: Location
+              - definition [ref=e241]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Peptide Program" [ref=e243] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=6a078fc39032ead57b1dea26&step=date
+            - text: Book at Remedy
+        - article [ref=e244]:
+          - generic [ref=e245]:
+            - img [ref=e247]
+            - generic [ref=e249]:
+              - heading "Precision Functional Medicine" [level=3] [ref=e250]
+              - paragraph [ref=e251]: Precision Functional Medicine, New Patient
+          - generic [ref=e252]:
+            - generic [ref=e253]: In-person at Remedy
+            - generic [ref=e254]: Online/Video available
+            - generic [ref=e255]: Tuesday
+          - paragraph [ref=e256]: A deep-dive functional medicine intake with root-cause analysis for gut health, metabolism, longevity, and more.
+          - paragraph [ref=e257]: Be sure to complete your Functional Medicine Intake Form before your appointment.
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - term [ref=e260]: Schedule
+              - definition [ref=e261]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - term [ref=e264]: Duration
+                - definition [ref=e265]: 1 hour
+              - generic [ref=e266]:
+                - term [ref=e267]: Price
+                - definition [ref=e268]: US$299.00
+            - generic [ref=e269]:
+              - term [ref=e270]: Format
+              - definition [ref=e271]: In-person, Online/Video chat
+            - generic [ref=e272]:
+              - term [ref=e273]: Location
+              - definition [ref=e274]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Precision Functional Medicine" [ref=e276] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f66b10ff1bd2ff3a426302&step=date
+            - text: Book at Remedy
+        - article [ref=e277]:
+          - generic [ref=e278]:
+            - img [ref=e280]
+            - generic [ref=e283]:
+              - heading "Rapid Wellness Consult" [level=3] [ref=e284]
+              - paragraph [ref=e285]: Rapid Wellness Consult
+          - generic [ref=e286]:
+            - generic [ref=e287]: In-person at Remedy
+            - generic [ref=e288]: Tuesday
+          - paragraph [ref=e289]: Expert direction for acute needs, supplement audits, or practical action steps for labs received from other providers.
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - term [ref=e292]: Schedule
+              - definition [ref=e293]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - term [ref=e296]: Duration
+                - definition [ref=e297]: 15 minutes
+              - generic [ref=e298]:
+                - term [ref=e299]: Price
+                - definition [ref=e300]: US$69.00
+            - generic [ref=e301]:
+              - term [ref=e302]: Format
+              - definition [ref=e303]: In-person
+            - generic [ref=e304]:
+              - term [ref=e305]: Location
+              - definition [ref=e306]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Rapid Wellness Consult" [ref=e308] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f669fdff1bd2ff3a424e4a&step=date
+            - text: Book at Remedy
+        - article [ref=e309]:
+          - generic [ref=e310]:
+            - img [ref=e312]
+            - generic [ref=e316]:
+              - heading "Medication Optimization" [level=3] [ref=e317]
+              - paragraph [ref=e318]: Medication Optimization
+          - generic [ref=e319]:
+            - generic [ref=e320]: In-person at Remedy
+            - generic [ref=e321]: Online/Video available
+            - generic [ref=e322]: Tuesday
+          - paragraph [ref=e323]: A comprehensive review to identify drug-nutrient depletions and help ensure medications, supplements, and herbs are working together safely and appropriately.
+          - paragraph [ref=e324]: Be sure to fill out the medication and supplement intake form prior to your visit.
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - term [ref=e327]: Schedule
+              - definition [ref=e328]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - term [ref=e331]: Duration
+                - definition [ref=e332]: 30 minutes
+              - generic [ref=e333]:
+                - term [ref=e334]: Price
+                - definition [ref=e335]: US$149.00
+            - generic [ref=e336]:
+              - term [ref=e337]: Format
+              - definition [ref=e338]: In-person, Online/Video chat
+            - generic [ref=e339]:
+              - term [ref=e340]: Location
+              - definition [ref=e341]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Medication Optimization" [ref=e343] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f66a8cff1bd2ff3a42583e&step=date
+            - text: Book at Remedy
+        - article [ref=e344]:
+          - generic [ref=e345]:
+            - img [ref=e347]
+            - generic [ref=e351]:
+              - heading "Lab Access Consult" [level=3] [ref=e352]
+              - paragraph [ref=e353]: Lab Access Consult
+          - generic [ref=e354]:
+            - generic [ref=e355]: In-person at Remedy
+            - generic [ref=e356]: Online/Video available
+            - generic [ref=e357]: Tuesday
+          - paragraph [ref=e358]: Direct access to professional-grade diagnostics with consultation and clinical oversight for lab orders and professional in-house blood draw where applicable.
+          - paragraph [ref=e359]: Clinical Order & Blood Draw. Skip the traditional hurdles. Order the tests you know you want. Includes consultation, clinical oversight for lab orders, and a professional in-house draw where applicable.
+          - paragraph [ref=e360]: "Popular panels: NAD+ Profiles, Vitamin D, Micronutrients, Microbiome Analysis, Food Sensitivities, and Cardiometabolic Markers."
+          - generic [ref=e361]:
+            - generic [ref=e362]:
+              - term [ref=e363]: Schedule
+              - definition [ref=e364]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e365]:
+              - generic [ref=e366]:
+                - term [ref=e367]: Duration
+                - definition [ref=e368]: 30 minutes
+              - generic [ref=e369]:
+                - term [ref=e370]: Price
+                - definition [ref=e371]: US$59.00
+            - generic [ref=e372]:
+              - term [ref=e373]: Format
+              - definition [ref=e374]: In-person, Online/Video chat
+            - generic [ref=e375]:
+              - term [ref=e376]: Location
+              - definition [ref=e377]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Lab Access Consult" [ref=e379] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69f66986ff1bd2ff3a4245fc&step=date
+            - text: Book at Remedy
+        - article [ref=e380]:
+          - generic [ref=e381]:
+            - img [ref=e383]
+            - generic [ref=e387]:
+              - heading "Lab Review & Optimization" [level=3] [ref=e388]
+              - paragraph [ref=e389]: Lab Review & Optimization, In-person, Initial Visit
+          - generic [ref=e390]:
+            - generic [ref=e391]: In-person at Remedy
+            - generic [ref=e392]: Tuesday
+          - paragraph [ref=e393]: Detailed review of laboratory results from a previous lab order with personalized interpretation and targeted recommendations for optimization, including lifestyle, supplementation, and treatment options when appropriate.
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - term [ref=e396]: Schedule
+              - definition [ref=e397]: Tuesday 9:30 AM - 5:00 PM
+            - generic [ref=e398]:
+              - generic [ref=e399]:
+                - term [ref=e400]: Duration
+                - definition [ref=e401]: 45 minutes
+              - generic [ref=e402]:
+                - term [ref=e403]: Price
+                - definition [ref=e404]: US$259.00
+            - generic [ref=e405]:
+              - term [ref=e406]: Format
+              - definition [ref=e407]: In-person
+            - generic [ref=e408]:
+              - term [ref=e409]: Location
+              - definition [ref=e410]:
+                - text: Remedy Holistic Pharmacy
+                - text: 320 W Cedar St, Suite 103, San Diego, CA, 92101, US
+          - 'link "Book at Remedy: Lab Review & Optimization" [ref=e412] [cursor=pointer]':
+            - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?s=69fd222e5072ea0efb27bbc1&step=date
+            - text: Book at Remedy
+    - generic [ref=e414]:
+      - heading "Not sure where to start?" [level=2] [ref=e415]
+      - paragraph [ref=e416]: Book a discovery call to discuss your goals and choose the most appropriate next step.
+      - link "Schedule a discovery call with Scott Precision Health" [ref=e418] [cursor=pointer]:
+        - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+        - img [ref=e419]
+        - text: Schedule a Discovery Call
+  - contentinfo [ref=e421]:
+    - generic [ref=e422]:
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - link "ScottPrecisionHealth" [ref=e425] [cursor=pointer]:
+            - /url: /
+            - img [ref=e426]
+            - generic [ref=e428]: ScottPrecisionHealth
+          - paragraph [ref=e429]: Precision medicine for high-performance life. Evidence-based naturopathic care rooted in advanced diagnostics and data-driven treatment plans.
+          - generic [ref=e430]:
+            - img [ref=e431]
+            - generic [ref=e434]: San Diego, California
+        - generic [ref=e435]:
+          - heading "Quick Links" [level=3] [ref=e436]
+          - list [ref=e437]:
+            - listitem [ref=e438]:
+              - link "Services" [ref=e439] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e440]:
+              - link "Shot Studio" [ref=e441] [cursor=pointer]:
+                - /url: /services/shot-studio
+            - listitem [ref=e442]:
+              - link "Scott Precision Health at Remedy" [ref=e443] [cursor=pointer]:
+                - /url: /services/scott-precision-health-at-remedy
+            - listitem [ref=e444]:
+              - link "About Us" [ref=e445] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e446]:
+              - link "Blog" [ref=e447] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e448]:
+              - link "Book Appointment" [ref=e449] [cursor=pointer]:
+                - /url: https://my.practicebetter.io/#/69ee51c3126eb6f1fbb39b21/bookings?r=69fd1d6b6134cb51ba771a5e
+        - generic [ref=e450]:
+          - heading "Our Network" [level=3] [ref=e451]
+          - list [ref=e452]:
+            - listitem [ref=e453]:
+              - link "Yours Longevity Lab" [ref=e454] [cursor=pointer]:
+                - /url: https://yourslongevitylab.com
+            - listitem [ref=e455]:
+              - link "Dr. Jordan Scott ND" [ref=e456] [cursor=pointer]:
+                - /url: https://jordanscottnd.com
+      - generic [ref=e457]:
+        - paragraph [ref=e458]: © 2026 Scott Precision Health. All rights reserved.
+        - link "hello@scottprecisionhealth.com" [ref=e460] [cursor=pointer]:
+          - /url: mailto:hello@scottprecisionhealth.com
+          - img [ref=e461]
+          - text: hello@scottprecisionhealth.com
+  - button "Open Next.js Dev Tools" [ref=e469] [cursor=pointer]:
+    - img [ref=e470]
